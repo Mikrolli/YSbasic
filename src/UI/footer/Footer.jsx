@@ -2,6 +2,9 @@ import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { FaInstagram, FaViber, FaWhatsapp, FaVk } from "react-icons/fa";
 import { TbBrandTelegram } from "react-icons/tb";
+import { BsTelephone } from "react-icons/bs";
+import { MdAlternateEmail } from "react-icons/md";
+import { BiMap } from "react-icons/bi";
 
 const Footer = () => {
   return (
@@ -55,12 +58,29 @@ const Footer = () => {
         </div>
         <div>
           <h6 className="font-medium text-gary-400">Контакты</h6>
-          <ul>
-            <li className="py-2 text-sm">283-300</li>
-            <li className="py-2 text-sm">284-400</li>
-            <li className="py-2 text-sm">900-242</li>
-            <li className="py-2 text-sm">remont@yar-servise.ru</li>
-            <li className="py-2 text-sm">
+          <ul className="">
+            <li className="py-2 text-sm flex items-center gap-2">
+              <BsTelephone />
+              <a href="tel:+79109739646">283-300</a>
+            </li>
+            <li className="py-2 text-sm flex items-center gap-2">
+              <BsTelephone />
+              <a href="tel:+79109739646">283-300</a>
+            </li>
+            <li className="py-2 text-sm flex items-center gap-2">
+              <BsTelephone />
+              <a href="tel:+79109739646">283-300</a>
+            </li>
+            <li className="py-2 text-sm flex items-center gap-2">
+              <MdAlternateEmail />
+              <a href="">remont@yar-servise.ru</a>
+            </li>
+            <li className="py-2 text-sm flex items-center gap-2">
+              <MdAlternateEmail />
+              <a href="">manager-zip@yar-servise.ru</a>
+            </li>
+            <li className="py-2 text-sm flex items-center gap-2">
+              <BiMap />
               г. Ярославль, Ленинградский пр-т, 52в
             </li>
           </ul>
