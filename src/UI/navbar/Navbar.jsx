@@ -27,7 +27,7 @@ const Navbar = () => {
           <NavbarDrop />
         </li>
         <NavLink
-          to="/price"
+          to="/product"
           className=" hover:text-red-500 active:text-red-700 p-5"
         >
           Цены

@@ -6,9 +6,9 @@ import About from "./pages/About/About";
 import Certificates from './pages/Certificates/Certificates';
 import Services from './pages/Services/Services';
 import Footer from "./UI/footer/Footer";
-import Price from "./pages/Price/Price";
 import News from "./pages/News/News";
 import Team from './pages/Team/Team';
+import Product from "./pages/Product/Product";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/certificates" element={<Certificates />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/price" element={<Price />} />
+        <Route path="/product" element={<Product />} />
         <Route path="/news" element={<News />} />
         <Route path="/team" element={<Team />} />
       </Routes>
